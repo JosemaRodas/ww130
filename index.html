@@ -1,119 +1,89 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Rafting</title>
-  <link type="text/css" rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Whitewater Rafting Vacations | Dry Oar Boating | Home</title>
 </head>
-
 <body>
-  <header>
-    <h1>Welcome to!</h1>
-    <h2>Rafting Services </h2>
-    <h2>WDD 130-BYU-I week 2</h2>
-    <h2>By Jose Manuel Rodas Villarroel</h2>
-    <!-- In the header above, add the name of your site, your name and class number. For example if you are in section 3 you would put WDD 130-03 -->
-  </header>
-  <main>
-    <!-- ------------------------Steps 2-5------------------------------ -->
-    <hr />
-    <h3>Our Pourpuse</h3>
-    <p> inspire adventure and connect outdoor enthusiasts with the thrill of whitewater rafting. Through informative guides, breathtaking imagery, and expert insights, we aim to provide a comprehensive resource for individuals seeking thrilling rafting experiences. Whether you're a novice looking for your first rafting adventure or an experienced rafter searching for new challenges, our website is your gateway to the world of exhilarating river journeys</p>
-    <!-- change this -->
-
-    <h3>Audience</h3>
-    <p>Novice Adventurers:
-
-        Individuals who are new to rafting and seeking basic information about the sport.
-        They may want to learn about essential gear, safety tips, and beginner-friendly rafting locations</p>
-    <!-- change this -->
-
-    <hr />
-    <h2>Branding</h2>
-    <h3>Website Logo</h3>
-    <!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
-    <img src="https://th.bing.com/th/id/OIP.qQZdYmzfn06uprTYmnHxhgHaD4?pid=ImgDet&rs=1" alt="Logo image" />
-    <hr />
-    <h2>Style Guide</h2>
-
-    <!-- ------------------------Steps 6-9------------------------------ -->
-
-    <h3>Color Palette</h3>
-    <!--  The colors you choose for a website are one of the most important decisions you will make. Follow the instructions on the activity in Canvas then return and replace the color codes below with the hex color codes (the 6 digit numbers that show at the bottom of each color) for the colors you have chosen below.  You should have at least 2 colors but do not have to fill in all 4 if you do not need them.  -->
-
-    <!-- Copy and paste the URL to your finished palette below. Replace the href value that is there with yours. Make sure to paste it into both the href value and the content text of the <a> tag -->
-    <p>Palette URL:</p>
-    <a href="https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c"
-      target="_blank">https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c</a>
-
-    <table class="colors">
-      <tr>
-        <th>Primary</th>
-        <th>Secondary</th>
-        <th>Accent 1</th>
-        <th>Accent 2</th>
-      </tr>
-      <!-- Replace the numbers in the boxes below with your hex color codes. Then switch to the site-plan.css file and change your colors there as well. -->
-      <tr>
-        <td class="primary">[#396E94]</td>
-        <td class="secondary">[#E7C24F]</td>
-        <td class="accent1">[#A43312]</td>
-        <td class="accent2">[#C1839F]</td>
-      </tr>
-    </table>
-
-    </h4>
-    <h3>Make sure to get in touch with us</h3>
-    <p>
-        We strive to promote safety, environmental stewardship, and a deep appreciation for the natural beauty of our rivers while fostering a sense of community among rafting enthusiasts..
-    </p>
-    <h3>Great experiences for everyone!</h3>
-    <p class="colored">
-      Trips vary from mild and great for families, to trips exclusively for
-      physically fit and experienced rafters. No matter what type of river
-      adventures you are seeking, White Water Rafting Company can make it
-      happen for you.
-    </p>
-
-    <!-- ------------------------Step 13------------------------------ -->
-
-    <h3>Navigation</h3>
-    <!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. -->
-    <nav>
-      <a href="#396E94">Home</a>
-      <a href="#">make a meeting</a>
-      <a href="#">Photos</a>
-      <a href="#">Contact Us</a>
-    </nav>
-    <hr />
-    <h2>Site Map</h2>
-    <div class="sitemap">
-      <div class="sm-home">Home</div>
-      <div class="sm-page2">
-        [Page2]
-        <!-- this page will have a name later -->
-      </div>
-      <div class="sm-page3">Contact Us</div>
-
-      <div class="top">&nbsp;</div>
-      <div class="left">&nbsp;</div>
-      <div class="right">&nbsp;</div>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="https://byui-wdd.github.io/wdd130/rafting_images/logo.png" alt="Dry Oar Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Our Page</a>
+            <a href="site-plan-rafting.html">Site Plan</a>
+            <a href="contactus.html">Contact Us</a>
+        </nav>
+    </header>
+    <div id="hero">
+        <div id="hero-box">
+            <img id="hero-img" src="https://byui-wdd.github.io/wdd130/rafting_images/hero.png" alt="People enjoying white water rafting">
+        </div>
+        <section id="hero-msg">
+            <h1 class="home-title">Have An Adventure</h1>
+            <h4>Make Memories with Dry Oar</h4>
+            <div class='button-box'>
+                <a class='book' href="contactus.html">Book Now</a>
+            </div>
+        </section>
     </div>
-    <hr />
-    <h2>Wireframes</h2>
-    <!-- Create an additional wireframe for your site. List it here below the Home page wireframe. -->
+    <main class="home-grid">
+        <section class="rivers-card">
+            <img class="card-img" src="https://th.bing.com/th/id/R.9feb85f8ddde47d9cd912bef69d22086?rik=XV1nu7yKZFU4UA&pid=ImgRaw&r=0" alt="river in forest">
+         
+            <h2>Rivers</h2>
+        </section>
+        <section class="camping-card">
+            <img class="card-img" src="https://th.bing.com/th/id/R.9d72a1eca5f56e39b733b853ca5d2d10?rik=VZQEHrXkdTgn5A&pid=ImgRaw&r=0" alt="tent in mountains">
+           
+            <h2>Camping</h2>
+        </section>
+        <section class="rapids-card">
+            <img class="card-img" src="https://th.bing.com/th/id/OIP.Y_oHZTsbOSsqL4k1hTmMwwHaE8?pid=ImgDet&rs=1" alt="rafting boat">
 
-    <h3>Home</h3>
+            <h2>Rapids</h2>
+        </section>
+        <img class="mountains" src="https://th.bing.com/th/id/R.788b92c0c6e8fb6d0a68c29e57ced750?rik=pP%2beEtduQoD6iw&pid=ImgRaw&r=0" alt="Misty mountains">
+        <section class="msg">
+            <h2>More Than Just The Thrill</h2>
+            <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors.</p>
+            <a class='join' href="rivers.html">Join Us</a>
+        </section>
+    </main>
 
-    <img src="https://byui-wdd.github.io/wdd130/rafting_images/wireframe_home.png" alt="home page wireframe" />
-    <img src="https://thumbs.dreamstime.com/z/vector-rafting-emblem-logo-label-77370802.jpg" alt="home page wireframe" />
-    <img src="https://th.bing.com/th/id/OIP.rnS7gl6nnFWJNd89eG3PNAHaFC?pid=ImgDet&rs=1" alt="home page wireframe" />
-
-    <h3>[Page 2]</h3>
-
-    <!-- <img src="#" alt="page 2 wireframe"> -->
-  </main>
+    <footer>
+        <p>Dry Oar &copy; 2023 - Jose Manuel Rodas Villarroel BYU-I WWD130</p>
+        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com">
+                <img src="https://byui-wdd.github.io/wdd130/rafting_images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com">
+                <img src="https://byui-wdd.github.io/wdd130/rafting_images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="https://byui-wdd.github.io/wdd130/rafting_images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+        <div class="sitemap">
+            <div class="sm-home">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="sm-page2">
+                <a href="#">Page 2</a>
+            </div>
+            <div class="sm-page3">
+                <a href="site-plan-rafting.html">Site Plan</a>
+            </div>
+            <div class="top"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+    </footer>
 </body>
-
 </html>
